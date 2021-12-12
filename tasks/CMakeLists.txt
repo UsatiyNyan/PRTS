@@ -23,3 +23,5 @@ add_compile_options(
         -Wredundant-decls
         -Wsign-conversion
         -Wsign-promo)
+
+add_subdirectory(task1)
