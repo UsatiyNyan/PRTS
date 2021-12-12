@@ -1,0 +1,25 @@
+enable_testing()
+set(CMAKE_CXX_STANDARD 17)
+add_compile_options(
+        -Werror
+        -pedantic-errors
+
+        -Wall
+        -Wextra
+        -Wpedantic
+
+        -Wcast-align
+        -Wcast-qual
+        -Wconversion
+        -Wctor-dtor-privacy
+        -Wduplicated-branches
+        -Wduplicated-cond
+        -Wextra-semi
+        -Wfloat-equal
+        -Wlogical-op
+        -Wnon-virtual-dtor
+        -Wold-style-cast
+        -Woverloaded-virtual
+        -Wredundant-decls
+        -Wsign-conversion
+        -Wsign-promo)
